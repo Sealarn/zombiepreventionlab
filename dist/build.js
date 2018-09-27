@@ -18362,42 +18362,12 @@ var PopOver = function (_ToolTip) {
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'app',
   components: {},
   data() {
-    return {
-      tab: 0
-    };
+    return {};
   },
   created() {},
   methods: {}
@@ -33363,7 +33333,7 @@ if (inBrowser && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__ = __webpack_require__(54);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_03be1746_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3541c12a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(211);
 var normalizeComponent = __webpack_require__(6)
 /* script */
 
@@ -33380,7 +33350,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_03be1746_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3541c12a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -33395,7 +33365,7 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',[_c('b-navbar',{staticClass:"b-navbar",attrs:{"toggleable":"md","type":"dark","variant":"dark"}},[_c('b-navbar-brand',{attrs:{"href":"#"}},[_vm._v("ZombiePreventionLab")]),_vm._v(" "),_c('b-navbar-toggle',{attrs:{"target":"nav_collapse"}}),_vm._v(" "),_c('b-collapse',{attrs:{"is-nav":"","id":"nav_collapse"}},[_c('b-navbar-nav',{staticClass:"ml-auto"},[_c('b-nav-item',{staticClass:"button",attrs:{"active":_vm.tab === 1,"href":"#"},on:{"click":function($event){_vm.tab = 1}}},[_vm._v("Home")])],1)],1)],1)],1),_vm._v(" "),(_vm.tab === 0)?_c('b-container',{staticClass:"container-fluid",attrs:{"fluid":""}},[_c('a-scene',{attrs:{"embedded":"","arjs":""}},[_c('a-box',{attrs:{"position":"0 0.5 0","material":"opacity: 0.5;"}}),_vm._v(" "),_c('a-marker-camera',{attrs:{"preset":"hiro"}})],1)],1):_vm._e(),_vm._v(" "),(_vm.tab === 1)?_c('b-container',{staticClass:"container-fluid",attrs:{"fluid":""}},[_c('b-card',{staticClass:"mb-5",attrs:{"tag":"article"}},[_c('h2',[_vm._v("Random title")])])],1):_vm._e()],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}})}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
