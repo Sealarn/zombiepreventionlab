@@ -15,10 +15,8 @@
     </div>
 
     <b-container v-if="tab === 0" class="container-fluid" fluid>
-      <a-scene embedded arjs>
-        <!-- create your content here. just a box for now -->
+      <a-scene embedded arjs='sourceType: webcam;'>
         <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-        <!-- define a camera which will move according to the marker position -->
         <a-marker-camera preset='hiro'></a-marker-camera>
       </a-scene>
     </b-container>
