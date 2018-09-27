@@ -10,10 +10,18 @@
 </head>
 
 <body>
-    <a-scene embedded arjs='sourceType: webcam;'>
-        <a-box color="tomato" depth="2" height="4" position='0 0.5 0' material='opacity: 0.8;'></a-box>
-        <a-marker-camera preset='hiro'></a-marker-camera>
-      </a-scene>
+
+  <a-scene embedded arjs='sourceType: webcam;'>
+    <!-- define your gltf asset -->
+    <a-assets>
+      <a-asset-item id="ground" src="./gltf/texture/scene.gltf"></a-asset-item>
+      <a-asset-item id="zombie" src="./gltf/zombie/scene.gltf"></a-asset-item>
+    </a-assets>
+    <!-- use your gltf model -->
+    <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity>
+    <a-entity scale="0.5 0.5 0.5" gltf-model="#ground"></a-entity>
+    <a-marker-camera preset='hiro'></a-marker-camera>
+  </a-scene>
 
   <script src="/build.js"></script>
 </body>
