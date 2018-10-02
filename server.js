@@ -4,6 +4,9 @@ const path = require('path')
 // create the express app
 const app = express()
 
+
+app.use("/", serveStatic(path.join(__dirname, '/static')))
+
 // create middleware to handle the serving the app
 app.use("/", serveStatic(path.join(__dirname, '/dist')))
 // Catch all routes and redirect to the index file
