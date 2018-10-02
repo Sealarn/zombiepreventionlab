@@ -14,14 +14,14 @@
   <a-scene embedded arjs='sourceType: webcam;'>
     <!-- define your gltf asset -->
     <a-assets>
-      <a-asset-item id="ground" src="https://zombiear.herokuapp.com/gltf/texture/scene.gltf"></a-asset-item>
-      <a-asset-item id="cutestthingever" src="https://zombiear.herokuapp.com/gltf/dr._plague/scene.gltf"></a-asset-item>
-      <a-asset-item id="sci_fi_crate" src="https://zombiear.herokuapp.com/gltf/sci_fi_crate/scene.gltf"></a-asset-item>
+      <a-asset-item id="ground" src="./static/gltf/texture/scene.gltf"></a-asset-item>
+      <a-asset-item id="cutestthingever" src="./static/gltf/dr._plague/scene.gltf"></a-asset-item>
+      <a-asset-item id="sci_fi_crate" src="./static/gltf/sci_fi_crate/scene.gltf"></a-asset-item>
 
-      <a-asset-item id="military_case" src="https://zombiear.herokuapp.com/gltf/military_case/scene.gltf"></a-asset-item>
-      <a-asset-item id="zombie" src="https://zombiear.herokuapp.com/gltf/zombie/scene.gltf"></a-asset-item>
+      <a-asset-item id="military_case" src="./static/gltf/military_case/scene.gltf"></a-asset-item>
+      <a-asset-item id="zombie" src="./static/gltf/zombie/scene.gltf"></a-asset-item>
 
-      <a-asset-item id="head" src="https://zombiear.herokuapp.com/gltf/they_live_head_sculpt/scene.gltf"></a-asset-item>
+      <a-asset-item id="head" src="./static/gltf/they_live_head_sculpt/scene.gltf"></a-asset-item>
     </a-assets>
 
 
@@ -37,7 +37,7 @@
     </a-marker>
 
     <!-- Custom marker  -->
-    <a-marker type='pattern' url='http://localhost:5000/static/patterns/pattern-marker-zombie.patt'>
+    <a-marker type='pattern' url='./static/patterns/they_live_head_sculpt/scene.gltf'>
       <a-entity scale="0.01 0.01 0.01" gltf-model="#head"></a-entity>
     </a-marker>
 

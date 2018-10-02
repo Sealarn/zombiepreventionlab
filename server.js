@@ -5,7 +5,7 @@ const path = require('path')
 const app = express()
 
 
-app.use("/", serveStatic(path.join(__dirname, '/static')))
+app.use("/static", serveStatic(path.join(__dirname, '/static')))
 
 // create middleware to handle the serving the app
 app.use("/", serveStatic(path.join(__dirname, '/dist')))
