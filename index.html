@@ -17,11 +17,20 @@
       <a-asset-item id="ground" src="gltf/texture/scene.gltf"></a-asset-item>
       <a-asset-item id="zombie" src="gltf/zombie/scene.gltf"></a-asset-item>
     </a-assets>
-    <!-- use your gltf model -->
-    <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity>
-    <a-entity scale="0.5 0.5 0.5" gltf-model="#ground"></a-entity>
-    <a-marker-camera preset='hiro'></a-marker-camera>
+
+    <!-- here is a kanji preset -->
+    <a-marker preset='kanji'>
+      <!-- use your gltf model -->
+      <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity>
+    </a-marker>
+
+    <a-marker-camera preset='hiro'>
+      <!-- use your gltf model -->
+      <a-entity scale="0.5 0.5 0.5" gltf-model="#ground"></a-entity>
+    </a-marker-camera>
+
   </a-scene>
+
 
   <script src="/dist/build.js"></script>
 </body>
