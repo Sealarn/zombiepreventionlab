@@ -15,19 +15,33 @@
     <!-- define your gltf asset -->
     <a-assets>
       <a-asset-item id="ground" src="gltf/texture/scene.gltf"></a-asset-item>
+      <a-asset-item id="cutestthingever" src="gltf/dr._plague/scene.gltf"></a-asset-item>
+      <a-asset-item id="sci_fi_crate" src="gltf/sci-fi_crate/scene.gltf"></a-asset-item>
+
+      <a-asset-item id="military_case" src="gltf/military_case/scene.gltf"></a-asset-item>
       <a-asset-item id="zombie" src="gltf/zombie/scene.gltf"></a-asset-item>
+
+      <a-asset-item id="head" src="gltf/they_live_head_sculpt/scene.gltf"></a-asset-item>
     </a-assets>
 
     <!-- here is a kanji preset -->
     <a-marker preset='kanji'>
       <!-- use your gltf model -->
-      <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity>
+      <!-- <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity> -->
+      <a-entity scale="0.3 0.3 0.3" gltf-model="#cutestthingever"></a-entity>
+      <!-- <a-entity scale="0.01 0.01 0.01" gltf-model="#sci_fi_crate"></a-entity> -->
     </a-marker>
 
     <a-marker preset='hiro'>
       <!-- use your gltf model -->
       <a-entity scale="0.5 0.5 0.5" gltf-model="#ground"></a-entity>
+      <a-entity scale="2 2 2" gltf-model="#military_case"></a-entity>
+      <a-entity scale="0.03 0.03 0.03" gltf-model="#head"></a-entity>
     </a-marker>
+
+    <!-- Custom marker  -->
+    <!-- <a-marker type='pattern' url='path/to/pattern-marker.patt'>
+    </a-marker> -->
 
     <!-- add a simple camera -->
     <a-entity camera></a-entity>
