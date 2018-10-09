@@ -32,6 +32,7 @@
     "vue": "2.5.16",
     "vue-loader": "^13.5.0",
     "vue-router": "^3.0.1",
+    "vue-scrollto": "^2.13.0",
     "vue-template-compiler": "^2.5.3",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
