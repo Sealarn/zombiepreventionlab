@@ -10,7 +10,8 @@
         <a-entity scale="0.6 0.6 0.6" gltf-model="url(/static/gltf/TwoSidedPlane/scene.gltf)"></a-entity>
       </a-marker>
 
-      <a-entity camera></a-entity>
+      <a-camera-static/>
+
     </a-scene>
   </div>
 </template>
