@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <a-scene arjs='sourceType: webcam;'>
+  <div id="aframe">
+    <a-scene arjs='sourceType: webcam; detectionMode: mono; trackingMethod: best;'>
       <!-- here is a kanji preset -->
       <a-marker preset='kanji'>
         <a-text position="0.5 1.5 0" value="My name is SPLOOSCH,"></a-text>
@@ -25,3 +25,8 @@
     methods: {}
   }
 </script>
+<style lang="scss">
+  #aframe {
+    position:'absolute'; height: '100%'; width: '100%';
+  }
+</style>
