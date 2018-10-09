@@ -18,7 +18,7 @@
     background-image: url('https://i.imgur.com/EFvir9K.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 150px;
+    height: 115px;
   }
 
   .card {
