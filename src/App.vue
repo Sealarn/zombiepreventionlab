@@ -12,6 +12,13 @@
 
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+  @import url('https://fonts.googleapis.com/css?family=Hind:700');
+
+  .header {
+    background-image: url('https://i.imgur.com/aLfLyY7.png');
+    height: 115px;
+    background-size: cover;
+  }
 
   .card {
     border: none;
@@ -19,6 +26,11 @@
 
   body {
     background: rgba(0,0,0, 0.87);
+    background-image: url('https://i.imgur.com/rk4iRlK.png');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   .jumbotron {
