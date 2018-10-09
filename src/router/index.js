@@ -6,16 +6,13 @@ import Main from '../components/Main.vue';
 Vue.use(Router);
 
 let router = new Router({
+  mode: 'history',
   routes: [{
       path: '*',
-      redirect: '/main'
+      redirect: '/'
     },
     {
       path: '/',
-      redirect: '/main'
-    },
-    {
-      path: '/main',
       name: 'Main',
       component: Main
     }
