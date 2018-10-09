@@ -16,10 +16,15 @@ Sverige, Norge och Finland är de enda länderna i Europa som fortfarande inte �
     </div>
     <div class="col-10 col-sm-10 col-md-8 col-lg-6 m-5">
       <b-card class="envelope" title="Uppdrag" img-src="https://i.ytimg.com/vi/MYwo1EwcN1s/maxresdefault.jpg" img-alt="Image" img-top tag="article">
-        The infection started in China. The first videos and photos that quickly spread across the web were all dismissed at a ploy, China trying to bait other countries to bring there militaries into some trap. By the time people started believing it, it had
-        spread to across all of Asia.
+Ert uppdrag är att stoppa viruset genom att framkalla ett vaccin. Med hjälp av verktygen och kemikalierna i labbet tillsammans med hemliga ledtrådar lämnade av tidigare forskare.
         <br>
-        <br> Within days it had reached Europe. Martial law was declared. USA has closed it's borders and international flights. However, (in the USA) most people still go about their daily lives as usual. The status quo has not been shaken. Yet.
+        <br>
+				Verktyg 1: Bild verktyg 1
+				        <br>
+								Verktyg 2: Bild verktyg 2
+								<br>
+								<br>
+								Genom att granska ledtrådarna och kartan så kan ni hitta lösningen till vaccinet och rädda de människor som finns kvar. Hinner ni inte i tid så är hoppet ute..
       </b-card>
     </div>
     <div class="col-10 col-sm-10 col-md-8 col-lg-6 m-5">
