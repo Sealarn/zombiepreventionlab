@@ -1,53 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <title>ZombiePreventionLab</title>
-  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/dist/main.css">
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
 </head>
 
 <body>
-
-  <a-scene embedded arjs='sourceType: webcam;'>
-    <!-- define your gltf asset -->
-    <a-assets>
-      <a-asset-item id="ground" src="./static/gltf/TwoSidedPlane/TwoSidedPlane.gltf"></a-asset-item>
-      <a-asset-item id="cutestthingever" src="./static/gltf/dr._plague/scene.gltf"></a-asset-item>
-      <a-asset-item id="sci_fi_crate" src="./static/gltf/sci-fi_crate/scene.gltf"></a-asset-item>
-
-      <a-asset-item id="military_case" src="./static/gltf/military_case/scene.gltf"></a-asset-item>
-      <a-asset-item id="zombie" src="./static/gltf/zombie/scene.gltf"></a-asset-item>
-
-      <a-asset-item id="head" src="./static/gltf/they_live_head_sculpt/scene.gltf"></a-asset-item>
-    </a-assets>
-
-
-    <!-- here is a kanji preset -->
-    <a-marker preset='kanji'>
-        <a-text position="0.5 1.5 0"  value="My name is SPLOOSCH,"></a-text>
-        <a-text position="0.5 1.2 0" value="here is a hint!"></a-text>
-      <!-- use your gltf model -->
-      <!-- <a-entity scale="0.01 0.01 0.01" gltf-model="#zombie"></a-entity> -->
-      <a-entity scale="0.15 0.15 0.15" gltf-model="#cutestthingever"></a-entity>
-      <a-entity scale="0.6 0.6 0.6" gltf-model="#ground"></a-entity>
-      <!-- <a-entity scale="0.01 0.01 0.01" gltf-model="#sci_fi_crate"></a-entity> -->
-    </a-marker>
-
-    <!-- Custom marker  -->
-    <a-marker preset='custom' type='pattern' url='./static/patterns/puzzle-marker.patt'>
-      <a-entity scale="0.01 0.01 0.01" gltf-model="#head"></a-entity>
-      <a-entity scale="0.6 0.6 0.6" gltf-model="#ground"></a-entity>
-    </a-marker>
-
-    <!-- add a simple camera -->
-    <a-entity camera></a-entity>
-
-  </a-scene>
-
-  <script src="/build.js"></script>
+  <div id="app"></div>
+  <script src="/dist/build.js"></script>
 </body>
 
 </html>
