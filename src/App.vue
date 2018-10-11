@@ -14,6 +14,11 @@
   @import url('https://fonts.googleapis.com/css?family=Special+Elite');
   @import url('https://fonts.googleapis.com/css?family=Hind:700');
 
+  iframe {
+    border: none;
+    height: 100vh;
+  }
+
   .header {
     background-image: url('https://i.imgur.com/EFvir9K.png');
     background-repeat: no-repeat;
