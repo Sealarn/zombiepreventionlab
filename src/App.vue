@@ -13,6 +13,16 @@
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Special+Elite');
   @import url('https://fonts.googleapis.com/css?family=Hind:700');
+  @import url('https://fonts.googleapis.com/css?family=Teko:600&effect=decaying');
+
+  .download {
+    max-width: 34px;
+    margin: 8px;
+    transition: ease-in-out 0.1s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 
   iframe {
     border: none;
@@ -20,10 +30,37 @@
   }
 
   .header {
-    background-image: url('https://i.imgur.com/EFvir9K.png');
+    background-image: url('https://i.imgur.com/aLfLyY7.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 115px;
+    line-height: 125px;
+  }
+
+  .header-title {
+    letter-spacing: 0.4rem;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 426px) {
+    .header-title {
+      letter-spacing: 0.1rem;
+      font-size: 42px;
+    }
+  }
+
+  @media only screen and (min-width:427px) {
+    .header-title {
+      font-size: 52px;
+    }
+  }
+
+  @media only screen and (min-width: 852px) {
+    .header-title {
+      font-size: 72px;
+    }
   }
 
   .card {
@@ -40,6 +77,7 @@
   }
 
   .jumbotron {
+    padding: 16px 32px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.56);
   }
