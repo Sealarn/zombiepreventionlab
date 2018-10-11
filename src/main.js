@@ -5,6 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import router from './router';
 import VueScrollTo from 'vue-scrollto';
+import VueFirestore from 'vue-firestore';
+
+Vue.use(VueFirestore);
 
 Vue.use(VueScrollTo, {
   container: "body",

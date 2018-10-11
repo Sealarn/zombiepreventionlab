@@ -14,7 +14,6 @@
   @import url('https://fonts.googleapis.com/css?family=Special+Elite');
   @import url('https://fonts.googleapis.com/css?family=Hind:700');
   @import url('https://fonts.googleapis.com/css?family=Teko:600&effect=decaying');
-
   .download {
     max-width: 34px;
     margin: 8px;
@@ -24,9 +23,37 @@
     }
   }
 
-  iframe {
-    border: none;
-    height: 100vh;
+  table {
+    border-color: transparent;
+  }
+
+  .table-dark td,
+  .table-dark th,
+  .table-dark thead th {
+    border-color: transparent;
+  }
+
+  th {
+    border-color: transparent;
+  }
+
+  td {
+    border-color: transparent;
+  }
+
+  thead {
+    border-color: transparent;
+  }
+
+  .table-dark {
+    background-color: rgba(0, 0, 0, 0);
+    background: transparent;
+  }
+
+  .table-container {
+    padding: 16px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    border-radius: .3rem;
   }
 
   .header {
