@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510px" height="510px" viewBox="0 0 510 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Attention</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Attention" fill="#6D4141">
+            <g id="Layer_1">
+                <g id="Icon-Exclamation">
+                    <path d="M255,509.933333 C114.2,509.933333 0.0666666667,395.8 0.0666666667,255 C0.0666666667,114.2 114.2,0.0666666667 255,0.0666666667 C395.8,0.0666666667 509.933333,114.2 509.933333,255 C509.933333,395.8 395.8,509.933333 255,509.933333 Z M255,27.8 C130.2,27.8 27.8,130.2 27.8,255 C27.8,379.8 130.2,482.2 255,482.2 C379.8,482.2 482.2,379.8 482.2,255 C482.2,130.2 379.8,27.8 255,27.8 Z" id="Fill-49" fill-rule="nonzero"></path>
+                    <polygon id="Fill-50" points="240.066667 360.6 269.933333 360.6 269.933333 390.466667 240.066667 390.466667"></polygon>
+                    <polyline id="Fill-51" points="263.533333 330.733333 246.466667 330.733333 240.066667 210.2 240.066667 119.533333 269.933333 119.533333 269.933333 210.2 263.533333 330.733333"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
