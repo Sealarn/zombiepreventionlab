@@ -7,7 +7,8 @@
 
       <div v-if="tab === 0" class="col-11 col-sm-11 col-md-8 col-lg-6">
         <b-button class="m-1" v-scroll-to="'#uppdrag'">Skippa backstory</b-button>
-        <b-button class="m-1" @click="displayHighscore">Highscore</b-button>
+        <b-button class="m-1" @click="displayHighscore">Topplista</b-button>
+        <b-button class="m-1" href="/markers">Markörer</b-button>
 
         <b-card class="envelope m-4" title="Bakgrund" img-src="http://vamers.com/wp-content/uploads/2017/12/Vamers-Gaming-A-New-Walking-Dead-Game-Is-Coming-From-Payday-Developer-Overkill-02.jpg" img-alt="Image" img-top tag="article">
           Infektionen började i Danmark. De första bilderna som spred sig på nätet blev snabbt avfärdade som fejk. Först några dagar efter att viruset brutit ut så började världen ta hotet allvar. Då var det dock för sent, hela Danmark var smittat och zombies började
@@ -34,8 +35,8 @@
           <h5>Get your version here:</h5>
           <div>
             <!-- <b-button class="m-1" href="/fuck_filter">Colorblind</b-button>
-                                <b-button class="m-1" v-bind:active="filter === 2" v-on:click="filter = 2">Monochrome</b-button>
-                                <b-button class="m-1" v-bind:active="filter === 3" v-on:click="filter = 3">Heatvision</b-button> -->
+                                      <b-button class="m-1" v-bind:active="filter === 2" v-on:click="filter = 2">Monochrome</b-button>
+                                    <b-button class="m-1" v-bind:active="filter === 3" v-on:click="filter = 3">Heatvision</b-button> -->
             <a v-if="android" href="http://play.google.com/store/apps/details?id=com.google.android.apps.maps"><img class="download" src="/static/images/playstore.svg"></a>
             <a v-if="!android" href="itms://itunes.apple.com/us/app/apple-store/id375380948?mt=8"><img class="download" src="/static/images/app-store.svg"></a>
           </div>
@@ -68,11 +69,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="row" style="justify-content: center;" v-if="filter === 1">
-                        <iframe sclass="col-6 col-sm-6 col-md-6 col-lg-6" allow="vr" src="/ass_filter"></iframe>
-                        <iframe class="col-6 col-sm-6 col-md-6 col-lg-6" allow="vr" src="/ass_filter"></iframe>
-                      </div> -->
   </div>
 </template>
 
