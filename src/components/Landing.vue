@@ -11,6 +11,20 @@
                 <b-button class="m-1" v-scroll-to="'#uppdrag'">Skippa backstory</b-button>
                 <b-button class="m-1" @click="displayHighscore">Topplista</b-button>
                 <b-button class="m-1" href="/markers">Markörer</b-button>
+                
+                <b-jumbotron class="m-4">
+                                                                <h5>Get your version here:</h5>
+                                                                <div>
+                                                                    <a
+                                                                        v-if="android"
+                                                                        href="https://play.google.com/store/apps/details?id=se.isakpersson.zombiear&fbclid=IwAR3cpQ8U3E-VZVRgmwR106UB2COeRK2cToiAcIL_mTJbdepGnkJf7a58Pp0">
+                                                                        <img class="download" src="/static/images/playstore.svg"></a>
+                                                                        <a
+                                                                            v-if="!android"
+                                                                            href="https://itunes.apple.com/gb/app/zombie-lab-ar-experience/id1439362837?mt=8&ign-mpt=uo%3D2&fbclid=IwAR0Cy88WE5sHTFvtFjWP75BXGsFfZcTc6Z89xfME1ntFUWBlCaEnOgEb4MA">
+                                                                            <img class="download" src="/static/images/app-store.svg"></a>
+                                                                        </div>
+                                                                    </b-jumbotron>
 
                 <b-card
                     class="envelope m-4"
@@ -60,19 +74,7 @@
                                                                 och rädda de människor som finns kvar. Hinner ni inte i tid så är hoppet ute..
                                                             </b-card>
 
-                                                            <b-jumbotron class="m-4">
-                                                                <h5>Get your version here:</h5>
-                                                                <div>
-                                                                    <a
-                                                                        v-if="android"
-                                                                        href="https://play.google.com/store/apps/details?id=se.isakpersson.zombiear&fbclid=IwAR3cpQ8U3E-VZVRgmwR106UB2COeRK2cToiAcIL_mTJbdepGnkJf7a58Pp0">
-                                                                        <img class="download" src="/static/images/playstore.svg"></a>
-                                                                        <a
-                                                                            v-if="!android"
-                                                                            href="https://itunes.apple.com/gb/app/zombie-lab-ar-experience/id1439362837?mt=8&ign-mpt=uo%3D2&fbclid=IwAR0Cy88WE5sHTFvtFjWP75BXGsFfZcTc6Z89xfME1ntFUWBlCaEnOgEb4MA">
-                                                                            <img class="download" src="/static/images/app-store.svg"></a>
-                                                                        </div>
-                                                                    </b-jumbotron>
+                                                        
                                                                 </div>
 
                                                                 <div
