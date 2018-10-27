@@ -97,7 +97,7 @@
                                                                                     <th scope="row">
                                                                                         {{index + 1}}</th>
                                                                                     <td>{{ group.name }}</td>
-                                                                                    <td>{{ group.score + 's' }}</td>
+                                                                                    <td>{{ Math.floor(group.score/60) + 'min ' + (group.score%60) + 's' }}</td>
                                                                                 </tr>
                                                                             </tbody>
                                                                         </table>
